@@ -5,12 +5,6 @@
 #4. The total number of votes each candidate won
 #5. The winner of the election based on popular vote.
 
-# data_set: Resources/election_results.csv
-
-
-
-#Open a File
-
 
 #add our dependencies
 import csv
@@ -105,32 +99,4 @@ print(candidate_options)
 
 #3. Print the total votes
 print(total_votes)
-
-
-
-
-
-
-#Using the with statement open the file as a text
-with open(file_to_save, "w") as txt_file:
-    
-    #Write Counties in the Election
-    txt_file.write("Counties in the Election\n")
-    txt_file.write("--------------------------\n")
-
-    #Write three counties to the file
-    txt_file.write("Arapahoe\nDenver\nJefferson")
-
-
-
-#Close the file
-outfile.close()
-
-os.system('cls||clear')
-#Close the file
-election_data.close()
-
-
-#Get Total Votes
-
 
